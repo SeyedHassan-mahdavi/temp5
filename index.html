@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> رویداد </title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/dark.css" type="text/css">
+  <link rel="stylesheet" href="css/lightbox.css" type="text/css">
+  <link rel="stylesheet" href="css/responsive.css" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#c62828">
+</head>
+
+<body>
+  <header>
+
+
+    <div class="newsDate ">
+      <nav class="navbar navbar-expand-md">
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <img src="image/menuH.svg">
+        </button>
+      </nav>
+      <div>
+        <span> خبر های امروز : 27</span>
+      </div>
+
+    </div>
+
+
+
+    <div class="nav">
+      <div class="container">
+        <div class="row ">
+          <nav class="navbar navbar-expand-md w-100">
+            <div class="mynav d-flex flex-wrap justify-content-between align-items-center w-100">
+              <!-- Navbar links -->
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav d-flex">
+                  <div class="logoHome">
+                    <div>LOGO</div>
+                  </div>
+                  <li class="nav-item"> <a class="nav-link" href="#"> <i class="icon-home mywhite"></i> </a> </li>
+                  <div style="display: flex; align-items: center;">
+                    <div style="height: 20px ;width: 1px; background-color: #D9D9D9;  "></div>
+                  </div>
+                  <li class="nav-item"> <a class="nav-link" href="#">سیاسی</a> </li>
+                  <li class="nav-item"> <a class="nav-link" href="#">اقتصادی</a> </li>
+                  <li class="nav-item"> <a class="nav-link" href="#">اجتماعی</a> </li>
+                  <li class="nav-item"> <a class="nav-link" href="#">صوت تصویر</a> </li>
+                  <li class="nav-item"> <a class="nav-link" href="#">ویدیو</a> </li>
+                  <li class="nav-item"> <a class="nav-link" href="#">درباره ما</a> </li>
+                  <li class="nav-item"> <a class="nav-link" href="#">تماس با ما</a> </li>
+                </ul>
+              </div>
+              <!-- <div> -->
+              <div class="weather ml-2 dropdown" style="background: rgba(244, 244, 244, 1);
+                  border-radius: 10px;
+                  display: flex;
+                   height: 40px;">
+
+                <button type="button" class="bg-transparent border-0 dropdown-toggle p-2 d-flex align-items-center"
+                  data-toggle="dropdown"> <i class="fab fa-bandcamp ml-2" style="font-size: 24px; "></i> اوقات شرعی |
+                  آب
+                  وهوا </button>
+                <div class="dropdown-menu"> <a class="dropdown-item" href="#">لینک شماره یک</a> <a class="dropdown-item"
+                    href="#">لینک شماره دو</a> <a class="dropdown-item" href="#">لینک شماره
+                    سه</a> </div>
+              </div>
+              <!-- </div> -->
+
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- <div class="wrap">
+      <div class="container-fluid">
+        <div class="container row m-auto">
+          <div class="col-lg-6 col-12 py-2 last-news"> <a href="#" style="text-decoration: none;"> پژوهشگر علوم اجتماعی:
+              اغتشاشات 1401 سطحی‌ترین مواجهه با جمهوری اسلامی بود </a> </div>
+          <div class="col-lg-6 col-12 py-2 khabar-fori text-center"> <a href="#" style="text-decoration: none;"> خبر
+              فوری </a> </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="wrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 col-12 py-2 last-news">
+            <div class="breaking-news-ticker" id="ticker">
+              <div class="bn-news">
+                <ul>
+                  <li><a href="#"> پژوهشگر علوم اجتماعی: اغتشاشات 1401 سطحی‌ترین مواجهه با جمهوری اسلامی بود </a></li>
+                  <li><a href="#"> نیروگاه‌های داخل کلان‌شهر‌ها مازوت مصرف نمی‌کنند </a></li>
+                  <li><a href="#"> آیا تزریق واکسن گونه جدید آنفلوآنزا برای همه مردم ضروری است؟ + فیلم </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-12 py-2 khabar-fori"> <a href="#" style="text-decoration: none;"> خبر فوری </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container sliderNews ">
+      <div onclick="leftScroll()" class="prevSlider">
+        <img src="image/prev.png">
+      </div>
+      <div onclick="rightScroll()" class="nextSlider">
+        <img src="image/next.png">
+      </div>
+      <div class="scroll-images">
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+        <span class="slider-text">گران ترین بمب فوتبالی عربستان مشخص شد</span>
+      </div>
+
+    </div>
+
+    <div class="container slider-sardabir ">
+      <div onclick="leftScroll()" class="prev-slider-sardabir">
+        <img src="image/prev.png">
+      </div>
+      <div onclick="rightScroll()" class="next-slider-sardabir">
+        <img src="image/next.png">
+      </div>
+      <div class="scroll-images-sardabir">
+        <div class="slider-card">
+          <div class="slider-card-img">
+            <img src="image/cardSlider.svg">
+          </div>
+          <div class="slider-card-titr">
+            امروز خودسوزی خلبان آمریکایی، فردا حمله به ناو آمریکایی!
+          </div>
+          <div>
+            نه‌تنها مردم عادی آمریکا، بلکه حتی نظامیان ارتش این کشور معتقدند رژیم صهیونیستی در غزه مرتکب نسل‌کشی شده و
+            برای اعتراض.
+          </div>
+          <div class="slider-card-time">
+            ساعت 20:20 - 1402/3/4
+          </div>
+        </div>
+        <div class="slider-card">
+          <div class="slider-card-img">
+            <img src="image/cardSlider.svg">
+          </div>
+          <div class="slider-card-titr">
+            امروز خودسوزی خلبان آمریکایی، فردا حمله به ناو آمریکایی!
+          </div>
+          <div>
+            نه‌تنها مردم عادی آمریکا، بلکه حتی نظامیان ارتش این کشور معتقدند رژیم صهیونیستی در غزه مرتکب نسل‌کشی شده و
+            برای اعتراض.
+          </div>
+          <div class="slider-card-time">
+            ساعت 20:20 - 1402/3/4
+          </div>
+        </div>
+        <div class="slider-card">
+          <div class="slider-card-img">
+            <img src="image/cardSlider.svg">
+          </div>
+          <div class="slider-card-titr">
+            امروز خودسوزی خلبان آمریکایی، فردا حمله به ناو آمریکایی!
+          </div>
+          <div>
+            نه‌تنها مردم عادی آمریکا، بلکه حتی نظامیان ارتش این کشور معتقدند رژیم صهیونیستی در غزه مرتکب نسل‌کشی شده و
+            برای اعتراض.
+          </div>
+          <div class="slider-card-time">
+            ساعت 20:20 - 1402/3/4
+          </div>
+        </div>
+        <div class="slider-card">
+          <div class="slider-card-img">
+            <img src="image/cardSlider.svg">
+          </div>
+          <div class="slider-card-titr">
+            امروز خودسوزی خلبان آمریکایی، فردا حمله به ناو آمریکایی!
+          </div>
+          <div>
+            نه‌تنها مردم عادی آمریکا، بلکه حتی نظامیان ارتش این کشور معتقدند رژیم صهیونیستی در غزه مرتکب نسل‌کشی شده و
+            برای اعتراض.
+          </div>
+          <div class="slider-card-time">
+            ساعت 20:20 - 1402/3/4
+          </div>
+        </div>
+        <div class="slider-card">
+          <div class="slider-card-img">
+            <img src="image/cardSlider.svg">
+          </div>
+          <div class="slider-card-titr">
+            امروز خودسوزی خلبان آمریکایی، فردا حمله به ناو آمریکایی!
+          </div>
+          <div>
+            نه‌تنها مردم عادی آمریکا، بلکه حتی نظامیان ارتش این کشور معتقدند رژیم صهیونیستی در غزه مرتکب نسل‌کشی شده و
+            برای اعتراض.
+          </div>
+          <div class="slider-card-time">
+            ساعت 20:20 - 1402/3/4
+          </div>
+        </div>
+        <div class="slider-card">
+          <div class="slider-card-img">
+            <img src="image/cardSlider.svg">
+          </div>
+          <div class="slider-card-titr">
+            امروز خودسوزی خلبان آمریکایی، فردا حمله به ناو آمریکایی!
+          </div>
+          <div>
+            نه‌تنها مردم عادی آمریکا، بلکه حتی نظامیان ارتش این کشور معتقدند رژیم صهیونیستی در غزه مرتکب نسل‌کشی شده و
+            برای اعتراض.
+          </div>
+          <div class="slider-card-time">
+            ساعت 20:20 - 1402/3/4
+          </div>
+        </div>
+        <div class="slider-card">
+          <div class="slider-card-img">
+            <img src="image/cardSlider.svg">
+          </div>
+          <div class="slider-card-titr">
+            امروز خودسوزی خلبان آمریکایی، فردا حمله به ناو آمریکایی!
+          </div>
+          <div>
+            نه‌تنها مردم عادی آمریکا، بلکه حتی نظامیان ارتش این کشور معتقدند رژیم صهیونیستی در غزه مرتکب نسل‌کشی شده و
+            برای اعتراض.
+          </div>
+          <div class="slider-card-time">
+            ساعت 20:20 - 1402/3/4
+          </div>
+        </div>
+        <div class="slider-card">
+          <div class="slider-card-img">
+            <img src="image/cardSlider.svg">
+          </div>
+          <div class="slider-card-titr">
+            امروز خودسوزی خلبان آمریکایی، فردا حمله به ناو آمریکایی!
+          </div>
+          <div>
+            نه‌تنها مردم عادی آمریکا، بلکه حتی نظامیان ارتش این کشور معتقدند رژیم صهیونیستی در غزه مرتکب نسل‌کشی شده و
+            برای اعتراض.
+          </div>
+          <div class="slider-card-time">
+            ساعت 20:20 - 1402/3/4
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr style="width:50%; margin: auto;" />
+
+    <div class="container report">
+      <div class="card-report">
+        <div style="display: flex; flex-direction: row; flex: 1; justify-content: space-around; position: relative;">
+          <div class="badge-card">یادداشت</div>
+          <div >
+            <img style="border-radius: 15px;height: 110px; width: 120px;" src="image/avatar/05.jpg">
+          </div>
+          <div style="display: flex; flex-direction: column; justify-content: space-around; margin-right: 10px;">
+            <div>
+              امام راحل ما از کجا می‌دانست؟
+            </div>
+            <div style="display: flex ; flex-direction: row; justify-content: space-between; flex-wrap: wrap;">
+              <span>1402/1/3</span>
+              <span>کامران شیرازی</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-report">
+        <div style="display: flex; flex-direction: row; flex: 1; justify-content: space-around; position: relative;">
+          <div class="badge-card">گزارش</div>
+          <div >
+            <img style="border-radius: 15px;height: 110px; width: 120px;" src="image/avatar/05.jpg">
+          </div>
+          <div style="display: flex; flex-direction: column; justify-content: space-around; margin-right: 10px;">
+            <div>
+              امام راحل ما از کجا می‌دانست؟
+            </div>
+            <div style="display: flex ; flex-direction: row; justify-content: space-between; flex-wrap: wrap;">
+              <span>1402/1/3</span>
+              <span>کامران شیرازی</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-report">
+        <div style="display: flex; flex-direction: row; flex: 1; justify-content: space-around;position: relative;">
+          <div class="badge-card">مصاحبه</div>
+          <div >
+            <img style="border-radius: 15px;height: 110px; width: 120px;" src="image/avatar/05.jpg">
+          </div>
+          <div style="display: flex; flex-direction: column; justify-content: space-around; margin-right: 10px;">
+            <div>
+              امام راحل ما از کجا می‌دانست؟
+            </div>
+            <div style="display: flex ; flex-direction: row; justify-content: space-between; flex-wrap: wrap;">
+              <span>1402/1/3</span>
+              <span>کامران شیرازی</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+  </header>
+
+
+
+  <main>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-lg-6 col-12">
+          <div class="top"> <img class="img_top w-100" src="image/news/div.row-new-1.png">
+            <div class="cat">سیاست خارجی</div>
+            <div class="title">
+              <h3 class="rotitr"> سخنگوی وزارت خارجه: </h3>
+              <h2 class="titr"> هر اقدام احمقانه‌ای علیه ایران با پاسخ ویرانگر همراه خواهد بود </h2>
+            </div>
+          </div>
+          <div class="mt-3"> <span class="sot1"></span><span class="sot2"></span><span class="sot3 mr-1">اخبار</span>
+          </div>
+          <div class="content mt-3 " style="position: -webkit-sticky;position: sticky;top: 0;">
+            <div class="my-news d-flex align-items-end">
+              <div class="w-40"> <img class="w-100" src="image/news/content-(2).png"> </div>
+              <div class="w-75 mr-2"> <span class="d-block rotitr"> قوه قضاییه </span> <span class="d-block titr"> دستور
+                  اژه‌ای درخصوص رسیدگی سریع به پرونده ۲۸ تروریست </span> <span class="d-block lead"> رئیس قوه قضائیه با
+                  اشاره به بازداشت ۲۸ تروریست در عملیات خنثی سازی ۳۰ انفجار همزمان در تهران گفت.. </span> <span
+                  class="d-block date text-left"> 20:20 - 1402/3/4 </span> </div>
+            </div>
+            <div class="my-news d-flex align-items-end">
+              <div class="w-40"> <img class="w-100" src="image/news/content-(2).png"> </div>
+              <div class="w-75 mr-2"> <span class="d-block rotitr"> قوه قضاییه </span> <span class="d-block titr"> دستور
+                  اژه‌ای درخصوص رسیدگی سریع به پرونده ۲۸ تروریست </span> <span class="d-block lead"> رئیس قوه قضائیه با
+                  اشاره به بازداشت ۲۸ تروریست در عملیات خنثی سازی ۳۰ انفجار همزمان در تهران گفت.. </span> <span
+                  class="d-block date text-left"> 20:20 - 1402/3/4 </span> </div>
+            </div>
+            <div class="my-news d-flex align-items-end">
+              <div class="w-40"> <img class="w-100" src="image/news/content-(2).png"> </div>
+              <div class="w-75 mr-2"> <span class="d-block rotitr"> قوه قضاییه </span> <span class="d-block titr"> دستور
+                  اژه‌ای درخصوص رسیدگی سریع به پرونده ۲۸ تروریست </span> <span class="d-block lead"> رئیس قوه قضائیه با
+                  اشاره به بازداشت ۲۸ تروریست در عملیات خنثی سازی ۳۰ انفجار همزمان در تهران گفت.. </span> <span
+                  class="d-block date text-left"> 20:20 - 1402/3/4 </span> </div>
+            </div>
+            <div class="my-news d-flex align-items-end">
+              <div class="w-40"> <img class="w-100" src="image/news/content-(2).png"> </div>
+              <div class="w-75 mr-2"> <span class="d-block rotitr"> قوه قضاییه </span> <span class="d-block titr"> دستور
+                  اژه‌ای درخصوص رسیدگی سریع به پرونده ۲۸ تروریست </span> <span class="d-block lead"> رئیس قوه قضائیه با
+                  اشاره به بازداشت ۲۸ تروریست در عملیات خنثی سازی ۳۰ انفجار همزمان در تهران گفت.. </span> <span
+                  class="d-block date text-left"> 20:20 - 1402/3/4 </span> </div>
+            </div>
+            <div class="my-news d-flex align-items-end">
+              <div class="w-40"> <img class="w-100" src="image/news/content-(2).png"> </div>
+              <div class="w-75 mr-2"> <span class="d-block rotitr"> قوه قضاییه </span> <span class="d-block titr"> دستور
+                  اژه‌ای درخصوص رسیدگی سریع به پرونده ۲۸ تروریست </span> <span class="d-block lead"> رئیس قوه قضائیه با
+                  اشاره به بازداشت ۲۸ تروریست در عملیات خنثی سازی ۳۰ انفجار همزمان در تهران گفت.. </span> <span
+                  class="d-block date text-left"> 20:20 - 1402/3/4 </span> </div>
+            </div>
+            <div class="my-news d-flex align-items-end">
+              <div class="w-40"> <img class="w-100" src="image/news/content-(2).png"> </div>
+              <div class="w-75 mr-2"> <span class="d-block rotitr"> قوه قضاییه </span> <span class="d-block titr"> دستور
+                  اژه‌ای درخصوص رسیدگی سریع به پرونده ۲۸ تروریست </span> <span class="d-block lead"> رئیس قوه قضائیه با
+                  اشاره به بازداشت ۲۸ تروریست در عملیات خنثی سازی ۳۰ انفجار همزمان در تهران گفت.. </span> <span
+                  class="d-block date text-left"> 20:20 - 1402/3/4 </span> </div>
+            </div>
+            <div class="my-news d-flex align-items-end">
+              <div class="w-40"> <img class="w-100" src="image/news/content-(2).png"> </div>
+              <div class="w-75 mr-2"> <span class="d-block rotitr"> قوه قضاییه </span> <span class="d-block titr"> دستور
+                  اژه‌ای درخصوص رسیدگی سریع به پرونده ۲۸ تروریست </span> <span class="d-block lead"> رئیس قوه قضائیه با
+                  اشاره به بازداشت ۲۸ تروریست در عملیات خنثی سازی ۳۰ انفجار همزمان در تهران گفت.. </span> <span
+                  class="d-block date text-left"> 20:20 - 1402/3/4 </span> </div>
+            </div>
+            <div class="my-news d-flex align-items-end">
+              <div class="w-40"> <img class="w-100" src="image/news/content-(2).png"> </div>
+              <div class="w-75 mr-2"> <span class="d-block rotitr"> قوه قضاییه </span> <span class="d-block titr"> دستور
+                  اژه‌ای درخصوص رسیدگی سریع به پرونده ۲۸ تروریست </span> <span class="d-block lead"> رئیس قوه قضائیه با
+                  اشاره به بازداشت ۲۸ تروریست در عملیات خنثی سازی ۳۰ انفجار همزمان در تهران گفت.. </span> <span
+                  class="d-block date text-left"> 20:20 - 1402/3/4 </span> </div>
+            </div>
+            <div class="my-news d-flex align-items-end">
+              <div class="w-40"> <img class="w-100" src="image/news/content-(2).png"> </div>
+              <div class="w-75 mr-2"> <span class="d-block rotitr"> قوه قضاییه </span> <span class="d-block titr"> دستور
+                  اژه‌ای درخصوص رسیدگی سریع به پرونده ۲۸ تروریست </span> <span class="d-block lead"> رئیس قوه قضائیه با
+                  اشاره به بازداشت ۲۸ تروریست در عملیات خنثی سازی ۳۰ انفجار همزمان در تهران گفت.. </span> <span
+                  class="d-block date text-left"> 20:20 - 1402/3/4 </span> </div>
+            </div>
+            <div class="my-news d-flex align-items-end">
+              <div class="w-40"> <img class="w-100" src="image/news/content-(2).png"> </div>
+              <div class="w-75 mr-2"> <span class="d-block rotitr"> قوه قضاییه </span> <span class="d-block titr"> دستور
+                  اژه‌ای درخصوص رسیدگی سریع به پرونده ۲۸ تروریست </span> <span class="d-block lead"> رئیس قوه قضائیه با
+                  اشاره به بازداشت ۲۸ تروریست در عملیات خنثی سازی ۳۰ انفجار همزمان در تهران گفت.. </span> <span
+                  class="d-block date text-left"> 20:20 - 1402/3/4 </span> </div>
+            </div>
+            <div class="my-news d-block text-center"> <span class=" more"> <a href="#"> مشاهده بیشتر </a> </span> </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-12 middel">
+          <ul class="nav nav-pills mb-2">
+            <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#home">پربازدیدترین ها</a> </li>
+            <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#menu1">پربحث ترین ها</a> </li>
+            <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#menu2">داغ های مجازی</a> </li>
+          </ul>
+          <div class="content p-2">
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div id="home" class="container tab-pane active"><br>
+                <ul class="link-in-tab pr-2">
+                  <li class="active"> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                </ul>
+              </div>
+              <div id="menu1" class="container tab-pane fade"><br>
+                <ul class="link-in-tab pr-2">
+                  <li class="active"> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                </ul>
+              </div>
+              <div id="menu2" class="container tab-pane fade"><br>
+                <ul class="link-in-tab pr-2">
+                  <li class="active"> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                  <li> <a href="#"> استقبال گرم کوچولوهای یک عشیره عراقی از زوار ایرانی </a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="content mt-2 p-3"> <a class="btn btn-sm btn-primary w-100 text-white"> آخرین اخبار </a>
+            <ul class="last-archive pr-0">
+              <li> <a href="#"> گران ترین بمب فوتبالی عربستان مشخص شد </a> </li>
+              <li> <a href="#"> گران ترین بمب فوتبالی عربستان مشخص شد </a> </li>
+              <li> <a href="#"> گران ترین بمب فوتبالی عربستان مشخص شد </a> </li>
+              <li> <a href="#"> گران ترین بمب فوتبالی عربستان مشخص شد </a> </li>
+              <li> <a href="#"> گران ترین بمب فوتبالی عربستان مشخص شد </a> </li>
+              <li> <a href="#"> گران ترین بمب فوتبالی عربستان مشخص شد </a> </li>
+              <li> <a href="#"> گران ترین بمب فوتبالی عربستان مشخص شد </a> </li>
+              <li> <a href="#"> گران ترین بمب فوتبالی عربستان مشخص شد </a> </li>
+              <li> <a href="#"> گران ترین بمب فوتبالی عربستان مشخص شد </a> </li>
+              <li> <a href="#"> گران ترین بمب فوتبالی عربستان مشخص شد </a> </li>
+              <li> <a href="#"> گران ترین بمب فوتبالی عربستان مشخص شد </a> </li>
+              <li> <a href="#"> گران ترین بمب فوتبالی عربستان مشخص شد </a> </li>
+              <li> <a href="#"> گران ترین بمب فوتبالی عربستان مشخص شد </a> </li>
+              <li> <a href="#"> گران ترین بمب فوتبالی عربستان مشخص شد </a> </li>
+              <li> <a href="#"> گران ترین بمب فوتبالی عربستان مشخص شد </a> </li>
+              <li> <a href="#"> گران ترین بمب فوتبالی عربستان مشخص شد </a> </li>
+              <li> <a href="#"> گران ترین بمب فوتبالی عربستان مشخص شد </a> </li>
+              <li> <a href="#"> گران ترین بمب فوتبالی عربستان مشخص شد </a> </li>
+              <li> <a href="#"> گران ترین بمب فوتبالی عربستان مشخص شد </a> </li>
+              <li> <a href="#"> گران ترین بمب فوتبالی عربستان مشخص شد </a> </li>
+              <li> <a href="#"> گران ترین بمب فوتبالی عربستان مشخص شد </a> </li>
+            </ul>
+          </div>
+          <div class="content mt-2 p-3"> <a class="btn btn-sm btn-primary text-white">یادداشت</a>
+            <div class="mt-2 d-flex align-items-center">
+              <div class="w-75 mr-2"> <span class="d-block titr pl-3 text-justify"> حقیقت واحد اسلام و ایران، درآیینه
+                  دفاع مقدس </span> <span class="d-block text-left text-small link-mid-four"> <a href="#"> مهدی فضائلی
+                  </a> <i class="icon-arrow---left-2"></i> </span> </div>
+              <div class="w-25"> <img class="w-100" src="image/news/image-14.png"> </div>
+            </div>
+            <span class="d-block text-left text-small link-mid-four mt-2"> <a href="#"> آرشیو </a> </span>
+          </div>
+          <div class="content mt-2 p-3"> <a class="btn btn-sm btn-primary text-white">یادداشت</a>
+            <div class="mt-2 d-flex align-items-center">
+              <div class="w-75 mr-2"> <span class="d-block titr pl-3 text-justify"> امام راحل ما از کجا می‌دانست؟
+                </span> <span class="d-block text-left text-small link-mid-four"> <a href="#"> کامران شیرازی </a> <i
+                    class="icon-arrow---left-2"></i> </span> </div>
+              <div class="w-25"> <img class="w-100" src="image/news/image-15.png"> </div>
+            </div>
+            <span class="d-block text-left text-small link-mid-four mt-2"> <a href="#"> آرشیو </a> </span>
+          </div>
+          <div class="content mt-2 p-3" style="position: -webkit-sticky;position: sticky;top: 0;"> <a
+              class="btn btn-sm btn-primary text-white">یادداشت</a>
+            <div class="mt-2 d-flex align-items-center">
+              <div class="w-75 mr-2"> <span class="d-block titr pl-3 text-justify"> چه کسی خواستار اخراج اساتید از
+                  دانشگاه است؟ </span> <span class="d-block text-left text-small link-mid-four"> <a href="#"> مهدی
+                    فضائلی </a> <i class="icon-arrow---left-2"></i> </span> </div>
+              <div class="w-25"> <img class="w-100" src="image/news/image-16.png"> </div>
+            </div>
+            <span class="d-block text-left text-small link-mid-four mt-2"> <a href="#"> آرشیو </a> </span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-12 left" style="position: -webkit-sticky;position: sticky;top: 0;">
+          <div class="ads"> <img class="w-100" src="image/ads/image-29.png"> <img class="w-100"
+              src="image/ads/mask-group-10.png">
+            <div class="d-flex justify-content-between"> <img class="w-100"
+                src="image/ads/link-14010802000372-test-gif-9.png"> <img class="w-100 mx-1"
+                src="image/ads/link-14010802000372-test-gif-11.png"> <img class="w-100"
+                src="image/ads/link-14010802000372-test-gif-10.png"> </div>
+            <img class="w-100" src="image/ads/mask-group-12.png"> <img class="w-100" src="image/ads/image-30.png"> <img
+              class="w-100" src="image/ads/mask-group-11.png">
+            <div class="d-flex justify-content-between"> <img class="w-100"
+                src="image/ads/link-14010802000372-test-gif-9.png"> <img class="w-100 mx-1"
+                src="image/ads/link-14010802000372-test-gif-11.png"> <img class="w-100"
+                src="image/ads/link-14010802000372-test-gif-10.png"> </div>
+            <img class="w-100" src="image/ads/mask-group-13.png"> <img class="w-100" src="image/ads/image-32.png"> <img
+              class="w-100" src="image/ads/mask-group-14.png">
+            <div class="d-flex justify-content-between"> <img class="w-100"
+                src="image/ads/link-14010802000372-test-gif-9.png"> <img class="w-100 mx-1"
+                src="image/ads/link-14010802000372-test-gif-11.png"> <img class="w-100"
+                src="image/ads/link-14010802000372-test-gif-10.png"> </div>
+            <img class="w-100" src="image/ads/mask-group-15.png"> <img class="w-100" src="image/ads/image-33.png">
+          </div>
+        </div>
+      </div>
+      <div class="mt-3"> <span class="sot1"></span><span class="sot2"></span> <span class="sot3">صوت و تصویر</span>
+      </div>
+    </div>
+
+
+    <div class="container-fluid multimedia mt-3">
+      <div class="container row m-auto">
+        <div class="col-lg-12 col-12  p-4 mt-2">
+          <!-- Nav tabs -->
+          <ul class="nav nav-pills  ">
+            <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#picture"> <span
+                  class="befortasvirbtn"></span> <span class="tasvirbtn"> تصویر </span> </a> </li>
+            <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#video"> <span
+                  class="beforvidbtn"></span> <span class="vidbtn"> ویدیو </span> </a> </li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane container p-0" id="picture">
+              <div class="row">
+                <div class="col-lg-6 col-12">
+                  <div class="big_picture pic-item"> <img src="image/news/mask-group-20.png">
+                    <h2 class="title"> شهیدی که «چگوارای ایرانی» نام گرفت + فیلم </h2>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-12 pic-items" style="margin-top: -30px;">
+                  <div style="position: -webkit-sticky;position: sticky;top: 0;">
+                    <div class="p-item d-flex align-items-end">
+                      <div class="w-25 cover"> <img class="w-100" src="image/news/image_3.png"> </div>
+                      <div class="w-75 mr-2 text"> <span class="d-block rotitr"> قوه قضاییه </span> <span
+                          class="d-block titr"> دستور اژه‌ای درخصوص رسیدگی سریع به پرونده ۲۸ تروریست </span> <span
+                          class="d-block date text-left"> 20:20 - 1402/3/4 </span> </div>
+                    </div>
+                    <div class="p-item d-flex align-items-end">
+                      <div class="w-25 cover"> <img class="w-100" src="image/news/image_3.png"> </div>
+                      <div class="w-75 mr-2 text"> <span class="d-block rotitr"> قوه قضاییه </span> <span
+                          class="d-block titr"> دستور اژه‌ای درخصوص رسیدگی سریع به پرونده ۲۸ تروریست </span> <span
+                          class="d-block date text-left"> 20:20 - 1402/3/4 </span> </div>
+                    </div>
+                    <div class="p-item d-flex align-items-end"
+                      style="position: -webkit-sticky;position: sticky;top: 0;">
+                      <div class="w-25 cover"> <img class="w-100" src="image/news/image_3.png"> </div>
+                      <div class="w-75 mr-2 text"> <span class="d-block rotitr"> قوه قضاییه </span> <span
+                          class="d-block titr"> دستور اژه‌ای درخصوص رسیدگی سریع به پرونده ۲۸ تروریست </span> <span
+                          class="d-block date text-left"> 20:20 - 1402/3/4 </span> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane active container" id="video">
+              <div class="row">
+                <div class="col-lg-6 col-12">
+                  <div class="big_video"> <img src="image/news/mask-group-20.png">
+                    <h2 class="title"> شهیدی که «چگوارای ایرانی» نام گرفت + فیلم </h2>
+                    <h3 class="sub_title"> بر اساس روایت مجری سرشناس و باسابقه تلویزیون، ۴۷ سال قبل در آسمان تهران دو
+                      جنگنده اف ۴ به دنبال شکار یوفوها بوده‌اند!</h3>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-12 " style="margin-top: -30px;">
+                  <div style="position: -webkit-sticky;position: sticky;top: 0;">
+                    <div class="vid-item d-flex align-items-end">
+                      <div class="w-25 cover"> <img class="w-100" src="image/news/content-(2).png"> </div>
+                      <div class="w-75 mr-2 text"> <span class="d-block rotitr"> قوه قضاییه </span> <span
+                          class="d-block titr"> دستور اژه‌ای درخصوص رسیدگی سریع به پرونده ۲۸ تروریست </span> <span
+                          class="d-block date text-left"> 20:20 - 1402/3/4 </span> </div>
+                    </div>
+                    <div class="vid-item d-flex align-items-end">
+                      <div class="w-25 cover"> <img class="w-100" src="image/news/content-(2).png"> </div>
+                      <div class="w-75 mr-2"> <span class="d-block rotitr"> قوه قضاییه </span> <span
+                          class="d-block titr"> دستور اژه‌ای درخصوص رسیدگی سریع به پرونده ۲۸ تروریست </span> <span
+                          class="d-block date text-left"> 20:20 - 1402/3/4 </span> </div>
+                    </div>
+                    <div class="vid-item d-flex align-items-end">
+                      <div class="w-25 cover"> <img class="w-100" src="image/news/content-(2).png"> </div>
+                      <div class="w-75 mr-2"> <span class="d-block rotitr"> قوه قضاییه </span> <span
+                          class="d-block titr"> دستور اژه‌ای درخصوص رسیدگی سریع به پرونده ۲۸ تروریست </span> <span
+                          class="d-block date text-left"> 20:20 - 1402/3/4 </span> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+  <footer class="mt-3">
+    <div class="container"> <img class="top_page" src="image/Arrow-Up-Circle.png" width="89">
+      <div class="row">
+        <div class="col-lg-4 col-12 align-items-center py-3 px-3 f-info"> <img class="logo" src="image/logo.png"
+            width="242">
+          <sapn class="d-block text-justify" style="font-size: 13px;font-weight: 400;"> پایگاه خبری صبح توس با مجوز رسمی
+            وزارت فرهنگ و ارشاد اسلامی از سال ۱۳۹۳ شروع به فعالیت کرده است. </sapn>
+          <div class="social mt-2"> <a href="#" class="social-item ex"> <img src="image/social/ex.png"> </a> <a href="#"
+              class="social-item rubika"> <img src="image/social/rubika.png"> </a> <a href="#"
+              class="social-item instagram"> <img src="image/social/instagram.png"> </a> <a href="#"
+              class="social-item telegram"> <img src="image/social/telegram.png"> </a> </div>
+          <div class="newsletter mt-2"> <span style="font-size: 13px;font-weight: 400;"> خبرنامه : </span>
+            <form class="form">
+              <input class="form-control border-0" type="search" placeholder="چیزی تایپ کنید">
+              <button class="btn confirm px-4 bg-white" type="submit"> تایید </button>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-8 col-6 px-3 d-flex align-items-end">
+          <div class="row ">
+            <div class="col-lg-4 col-6 px-3">
+              <div class="title"> عنوان </div>
+              <ul class="px-3">
+                <li> <a href="#"> لینک دسترسی </a> </li>
+                <li> <a href="#"> لینک دسترسی </a> </li>
+                <li> <a href="#"> لینک دسترسی </a> </li>
+                <li> <a href="#"> لینک دسترسی </a> </li>
+                <li> <a href="#"> لینک دسترسی </a> </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-6 px-3">
+              <div class="title"> دسترسی سریع </div>
+              <ul class="px-3">
+                <li> <a href="#"> لینک دسترسی </a> </li>
+                <li> <a href="#"> لینک دسترسی </a> </li>
+                <li> <a href="#"> لینک دسترسی </a> </li>
+                <li> <a href="#"> لینک دسترسی </a> </li>
+                <li> <a href="#"> لینک دسترسی </a> </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-6 px-3">
+              <div class="title mb-2"> اعلام مشکل در سایت </div>
+              <div class="title mb-2"> تبلیغات </div>
+            </div>
+            <div class="col-12 px-3 text-left copyright"> <span style="font-size: 13px;font-weight: 400;"> تمامی حقوق
+                مادی و معنوی متعلق به صبح توس میباشد © </span> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/lightbox.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.top_page').click(function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      $('#ticker').breakingNews({
+        effect: 'typography',
+        direction: 'rtl',
+
+      });
+
+    });       
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const scrollImages = document.querySelector(".scroll-images");
+      const scrollLength = scrollImages.scrollWidth - scrollImages.clientWidth;
+      const leftButton = document.querySelector(".prevSlider");
+      const rightButton = document.querySelector(".nextSlider");
+
+      function checkScroll() {
+        const currentScroll = scrollImages.scrollLeft;
+        if (currentScroll === 0) {
+          leftButton.setAttribute("disabled", "true");
+          rightButton.removeAttribute("disabled");
+        } else if (currentScroll === scrollLength) {
+          rightButton.setAttribute("disabled", "true");
+          leftButton.removeAttribute("disabled");
+        } else {
+          leftButton.removeAttribute("disabled");
+          rightButton.removeAttribute("disabled");
+        }
+      }
+
+      scrollImages.addEventListener("scroll", checkScroll);
+      window.addEventListener("resize", checkScroll);
+      checkScroll();
+
+      function leftScroll() {
+        scrollImages.scrollBy({
+          left: -200,
+          behavior: "smooth"
+        });
+      }
+
+      function rightScroll() {
+        scrollImages.scrollBy({
+          left: 200,
+          behavior: "smooth"
+        });
+      }
+
+      leftButton.addEventListener("click", leftScroll);
+      rightButton.addEventListener("click", rightScroll);
+    });
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const scrollImages = document.querySelector(".scroll-images-sardabir");
+      const scrollLength = scrollImages.scrollWidth - scrollImages.clientWidth;
+      const leftButton = document.querySelector(".prev-slider-sardabir");
+      const rightButton = document.querySelector(".next-slider-sardabir");
+
+      function checkScroll() {
+        const currentScroll = scrollImages.scrollLeft;
+        console.log('currentScroll', currentScroll)
+        if (currentScroll === 0) {
+          leftButton.setAttribute("disabled", "true");
+          rightButton.removeAttribute("disabled");
+        } else if (currentScroll === scrollLength) {
+          rightButton.setAttribute("disabled", "true");
+          leftButton.removeAttribute("disabled");
+        } else {
+          leftButton.removeAttribute("disabled");
+          rightButton.removeAttribute("disabled");
+        }
+      }
+
+      scrollImages.addEventListener("scroll", checkScroll);
+      window.addEventListener("resize", checkScroll);
+      checkScroll();
+
+      function leftScroll() {
+        scrollImages.scrollBy({
+          left: -200,
+          behavior: "smooth"
+        });
+      }
+
+      function rightScroll() {
+        scrollImages.scrollBy({
+          left: 200,
+          behavior: "smooth"
+        });
+      }
+
+      leftButton.addEventListener("click", leftScroll);
+      rightButton.addEventListener("click", rightScroll);
+    });
+  </script>
+
+
+
+
+</body>
+
+</html>
